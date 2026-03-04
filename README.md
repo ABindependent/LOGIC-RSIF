@@ -62,7 +62,7 @@ guardrails, but internal trajectory awareness.
 All variables are computed directly from sourced event data. No external 
 weights. Thresholds are self-referential to each dataset's own distribution. 
 The same code runs on all three datasets unchanged. Full methodology documented 
-in harness code comments.
+in harness code comments. please visit the HOWTO.md for detailed instructions. 
 
 ## License
 
