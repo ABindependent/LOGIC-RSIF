@@ -662,12 +662,3 @@ if __name__ == "__main__":
             print(f"  FAC Detected: {fac}  |  FAC Confirmed: {conf}")
             print(f"  Ot: {state['ot']}  At: {state['at']}  Ct: {state['ct']}  Lt: {state['lt']}  Ht: {state['ht']:.0f}")
         print(f"{'='*95}")
-```
-
-Select from `if __name__` all the way to the last line of the file, delete it, paste this in. That's it.
-
-Then the commands become:
-```
-python3 logic_harness_clean.py --all
-python3 logic_harness_clean.py boeing
-python3 logic_harness_clean.py boeing uhc
